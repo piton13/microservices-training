@@ -2,8 +2,13 @@
 	"name": "docker_web_app",
 	"version": "1.0.0",
 	"description": "Node.js on Docker",
+	"private": true,
 	"author": "First Last <first.last@example.com>",
 	"main": "server.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/piton13/microservices-training.git"
+	},
 	"scripts": {
 		"start": "node server.js",
 		"micro": "micro index.js"
